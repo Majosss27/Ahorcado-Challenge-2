@@ -167,13 +167,13 @@ function finDelJuego(){
 	pincel.fillStyle = "red";
 	pincel.fillText("Fin del juego, la palabra era: ", 150, 200);
     pincel.font="50 pt Courrier"
-    pincel.fillText(palabraAleatoria, 200, 280);
+    pincel.fillText(palabraAleatoria, 250, 320);
 }
 
 function juegoGanado(){
     pincel.font="40pt Verdana";
     pincel.fillStyle = "green";
-    pincel.fillText("¡¡¡Felicidades, ganaste!!!", 350, 180);
+    pincel.fillText("¡¡¡Felicidades, ganaste!!!", 200, 420);
 }
 
 function dibujarAhorcado(intentos) {
